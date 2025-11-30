@@ -12,8 +12,9 @@ class PurchaseService:
         logger.info("Calculating unique buyers")
         # count distinct user_id in purchases
         q = db.execute(text("SELECT COUNT(DISTINCT user_id) FROM purchases"))
-        logger.info(f"Unique buyers count: {q.scalar()}")
-        return q.scalar()
+        count = q.scalar()
+        logger.info(f"Unique buyers count: {count}")
+        return count
 
     @classmethod
     def loyal_buyers(cls, db: Session, min_purchases: int = 3):
