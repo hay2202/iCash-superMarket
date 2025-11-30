@@ -5,6 +5,11 @@ This repository implements a small microservices demo for the iCash SuperMarket 
 - owner service
 - PostgreSQL DB with initial data (loaded from the provided CSVs)
 
+  <img width="598" height="928" alt="image" src="https://github.com/user-attachments/assets/3fa5943d-d55d-44a0-8763-dca5409a70ba" />
+  <img width="1192" height="837" alt="image" src="https://github.com/user-attachments/assets/4eccfce5-faff-4a31-a3e0-79ab37fb7e4a" />
+
+
+
 ---
 
 ## ✨ Features
